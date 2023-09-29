@@ -1,0 +1,15 @@
+
+public class BuenosDias {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//1.Buenos días
+		System.out.println("Buenos días");
+		//2.area del cuadrado
+		double a = 5;
+		double area =  a * a;
+		//area del cuadrado por teclado
+		
+	}
+
+}

@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class BuenosDias {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//1.Buenos días
+		System.out.println("Buenos días");
+		
+		   
+		
+		//2.area del cuadrado
+		double a = 5;
+		double  =  a * a;
+		System.out.println("el area de un cuadrado de lado 5 es" + a);
+		
+		
+		
+		//3.area del cuadrado por teclado
+		Scanner reader = new Scanner(System.in);	
+		System.out.print("Escriba el lado del cuadrado: ");
+		double lado = reader.nextDouble();
+		Double area = lado*lado;
+		System.out.println("El area es: " + area);
+	}
+
+}
